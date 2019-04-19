@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE">
+      <UniqueIdentifier>{4bb3fd8f-30e9-44c8-aefa-ab69eed83ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME">
+      <UniqueIdentifier>{0c36e25d-9af8-4d88-b3da-49b7f34263bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Manager">
+      <UniqueIdentifier>{21986b56-b0f9-4eb0-921e-644a9a845438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Component">
+      <UniqueIdentifier>{7297b0c4-0d34-4d55-96f9-b033860ea223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Utility">
+      <UniqueIdentifier>{471e307a-d80e-4027-a5a1-ddab6651ab48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\stdafx">
+      <UniqueIdentifier>{edb5844e-9675-46e2-a0f0-14c16b28aa20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Scene">
+      <UniqueIdentifier>{727d65c4-4615-4ef2-aff2-eeefa8dec692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\GameObject">
+      <UniqueIdentifier>{dcc71055-a5c7-4e75-b957-254f0092aefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Objects">
+      <UniqueIdentifier>{ad1a8cd8-273d-45ab-9db3-9c6c74b86dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Scenes">
+      <UniqueIdentifier>{ee209efb-bdc4-43dd-99a2-86db4d2f5364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Maingame">
+      <UniqueIdentifier>{993bb968-78df-4963-85e7-a18f67791e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Objects\Entity">
+      <UniqueIdentifier>{5d297f11-1139-4f6e-9f5e-12833ea372c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Objects\Backgrounds">
+      <UniqueIdentifier>{3cc5e996-dc6f-46b2-a1ae-360514f10657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Objects\UI">
+      <UniqueIdentifier>{19ab6960-bc9e-4787-a286-e08457b31bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Objects\Bullets">
+      <UniqueIdentifier>{cf0e4756-710a-4e34-ad8e-1ccc7d92ac64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Objects\PlayerControlor">
+      <UniqueIdentifier>{df427274-f4b0-4ea2-b48a-33c383c9097d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="ENGINE\Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="GAME\Objects\Entity\Enemy">
+      <UniqueIdentifier>{62705703-df47-47bf-a280-34b0f6adf44f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>ENGINE\Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TankGame01.cpp" />
+    <ClCompile Include="CCameraManager.cpp">
+      <Filter>ENGINE\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionManager.cpp">
+      <Filter>ENGINE\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataManager.cpp">
+      <Filter>ENGINE\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputManager.cpp">
+      <Filter>ENGINE\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManager.cpp">
+      <Filter>ENGINE\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceManager.cpp">
+      <Filter>ENGINE\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>ENGINE\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>ENGINE\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>ENGINE\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>ENGINE\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CMultiPixelCollider.cpp">
+      <Filter>ENGINE\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CPixelCollider.cpp">
+      <Filter>ENGINE\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderer.cpp">
+      <Filter>ENGINE\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidbody.cpp">
+      <Filter>ENGINE\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransform.cpp">
+      <Filter>ENGINE\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CFrame.cpp">
+      <Filter>ENGINE\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CMultiTexture.cpp">
+      <Filter>ENGINE\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CSingleTexture.cpp">
+      <Filter>ENGINE\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>ENGINE\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ENGINE\stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>ENGINE\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>ENGINE\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CIntroScene.cpp">
+      <Filter>GAME\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage1Scene.cpp">
+      <Filter>GAME\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage2Scene.cpp">
+      <Filter>GAME\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CMaingame.cpp">
+      <Filter>GAME\Maingame</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackground.cpp">
+      <Filter>GAME\Objects\Backgrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="CScrollBackground.cpp">
+      <Filter>GAME\Objects\Backgrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>GAME\Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CFade.cpp">
+      <Filter>GAME\Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeteor.cpp">
+      <Filter>GAME\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CCheckPoint.cpp">
+      <Filter>GAME\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CDelayBullet.cpp">
+      <Filter>GAME\Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="CGuiededBullet.cpp">
+      <Filter>GAME\Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>GAME\Objects\PlayerControlor</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSeeker.cpp">
+      <Filter>GAME\Objects\PlayerControlor</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapPlacer.cpp">
+      <Filter>GAME\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeteorCreater.cpp">
+      <Filter>GAME\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateTexture.cpp">
+      <Filter>ENGINE\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CExplode.cpp">
+      <Filter>GAME\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>GAME\Objects\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CMine.cpp">
+      <Filter>GAME\Objects\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyAdmin.cpp">
+      <Filter>GAME\Objects\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CLifeSystem.cpp">
+      <Filter>ENGINE\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CTopCannon.cpp">
+      <Filter>GAME\Objects\PlayerControlor</Filter>
+    </ClCompile>
+    <ClCompile Include="CGagebar.cpp">
+      <Filter>GAME\Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyBullet.cpp">
+      <Filter>GAME\Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCameraManager.h">
+      <Filter>ENGINE\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionManager.h">
+      <Filter>ENGINE\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataManager.h">
+      <Filter>ENGINE\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputManager.h">
+      <Filter>ENGINE\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManager.h">
+      <Filter>ENGINE\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceManager.h">
+      <Filter>ENGINE\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>ENGINE\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>ENGINE\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>ENGINE\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>ENGINE\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CMultiPixelCollider.h">
+      <Filter>ENGINE\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CPixelCollider.h">
+      <Filter>ENGINE\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidbody.h">
+      <Filter>ENGINE\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderer.h">
+      <Filter>ENGINE\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransform.h">
+      <Filter>ENGINE\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CMultiTexture.h">
+      <Filter>ENGINE\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrame.h">
+      <Filter>ENGINE\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>ENGINE\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleTexture.h">
+      <Filter>ENGINE\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleton.h">
+      <Filter>ENGINE\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ENGINE\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>ENGINE\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>ENGINE\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CIntroScene.h">
+      <Filter>GAME\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage2Scene.h">
+      <Filter>GAME\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage1Scene.h">
+      <Filter>GAME\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaingame.h">
+      <Filter>GAME\Maingame</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackground.h">
+      <Filter>GAME\Objects\Backgrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="CScrollBackground.h">
+      <Filter>GAME\Objects\Backgrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>GAME\Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CFade.h">
+      <Filter>GAME\Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeteor.h">
+      <Filter>GAME\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CCheckPoint.h">
+      <Filter>GAME\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CGuiededBullet.h">
+      <Filter>GAME\Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="CDelayBullet.h">
+      <Filter>GAME\Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>GAME\Objects\PlayerControlor</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSeeker.h">
+      <Filter>GAME\Objects\PlayerControlor</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapPlacer.h">
+      <Filter>GAME\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeteorCreater.h">
+      <Filter>GAME\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateTexture.h">
+      <Filter>ENGINE\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CExplode.h">
+      <Filter>GAME\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>GAME\Objects\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CMine.h">
+      <Filter>GAME\Objects\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyAdmin.h">
+      <Filter>GAME\Objects\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CLifeSystem.h">
+      <Filter>ENGINE\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CTopCannon.h">
+      <Filter>GAME\Objects\PlayerControlor</Filter>
+    </ClInclude>
+    <ClInclude Include="CGagebar.h">
+      <Filter>GAME\Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyBullet.h">
+      <Filter>GAME\Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>ENGINE\Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="TankGame01.rc">
+      <Filter>ENGINE\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
